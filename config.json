@@ -1,0 +1,7 @@
+{
+  "Parameters": {
+    "CodeS3Bucket": "#{BuildArtifact.BucketName}",
+    "CodeS3Key": "#{BuildArtifact.ObjectKey}",
+    "ExecutionRoleArn": "arn:aws:iam::YOUR_ACCOUNT_ID:role/HelloWorldLambdaExecutionRole"
+  }
+}
